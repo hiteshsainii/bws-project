@@ -1,0 +1,15 @@
+[package]
+name = "bws"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0x144a7cf1d485eef6df7b0c05b01476a85703155638926d7469769c3b191f9b92"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
